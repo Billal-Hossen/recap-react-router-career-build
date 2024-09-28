@@ -10,7 +10,7 @@ export default function Header() {
     <li><NavLink to="/blogs">Blogs</NavLink></li>
   </>
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -33,7 +33,7 @@ export default function Header() {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl">daisyUI</a>
+        <NavLink to="/" className=" text-xl font-bold">CareerBuild</NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">

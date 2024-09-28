@@ -5,9 +5,11 @@ import Header from '../Header/Header'
 
 export default function Root() {
   return (
-    <div>
-      <Header />
-      <Outlet />
+    <div className='bg-base-200 '>
+      <div className='max-w-5xl mx-auto '>
+        <Header />
+        <Outlet />
+      </div>
       <Footer />
     </div>
   )
